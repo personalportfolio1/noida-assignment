@@ -1,0 +1,225 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:1200px)
+{
+    .disiese-list{
+        width:45%; 
+        margin-bottom:20px;  
+    }
+    .main-div{
+        width:100%;
+        height:auto;
+        border:1px solid black;
+        margin-bottom:20px;
+        margin:10px;
+    }
+}
+@media screen and (max-width:999px){
+    .translate-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        line-height: 70px;
+        border-radius: 50px;
+        transform: translateY(-30px);
+        box-shadow: 4px 4px 7px rgb(189, 189, 236);
+        z-index: 1;
+    }
+
+    .main-div{
+        width:100%;
+        height:auto;
+        border:1px solid black;
+        margin-bottom:30px;
+        margin:10px;
+    }
+    .cardio{
+        width:45%;   
+    }
+    #first{
+        display:flex;
+        justify-content:space-between;
+        padding:20px;
+    }
+    .disiese-list{
+        width:45%; 
+        margin-bottom:30px;  
+    }
+    .main-div{
+        width:100%;
+        height:auto;
+        border:1px solid black;
+        margin-bottom:20px;
+        padding:20px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .banner-left-part h5 {
+        padding-top: 30px;
+    }
+
+    #banner {
+        height: auto;
+    }
+
+    .banner-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-image {
+        margin-top: 30px;
+    }
+
+    .translate-div {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        line-height: 70px;
+        border-radius: 50px;
+        transform: translateY(-30px);
+        box-shadow: 4px 4px 7px rgb(189, 189, 236);
+        z-index: 1;
+    }
+
+    .right-text #location-icon {
+        padding-left: 50px;
+    }
+
+    .icon .whatsapp-icon{
+        position:fixed;
+        top:40px;
+        right:95px;
+        width:40px;
+        height:35px;
+        border-radius:50px 0px 0px 50px;
+        text-align: center;
+    }
+    .whatsapp-icon a i:hover{
+        transform:rotate(180deg);
+    }
+    #first{
+        display:flex;
+        flex-flow:row wrap;
+        justify-content:space-between;
+    }
+    .disiese-list{
+        width:48%;   
+    }
+    #first .disiese-list {
+        margin-top: 30px;
+    }
+
+    .main-div{
+        width:100%;
+        height:auto;
+        border:1px solid black;
+        margin-bottom:20px;
+        padding:20px;
+    }
+    #left-section{
+        order:2;
+    }
+    #right-sections{
+        order:1;
+    }
+}
+
+@media screen and (max-width:440px) {
+    #banner {
+        height: auto;
+    }
+    .banner-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-image {
+        margin-top: 30px;
+    }
+
+    .banner-left-part h4,
+    h2,
+    p {
+        line-height: 20px;
+    }
+
+    .banner-left-part h4 {
+        font-weight: bold;
+        padding-top: 50px;
+    }
+
+    .translate-div {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 40%;
+        height: auto;
+        background-color: aqua;
+        line-height: 30px;
+        border-radius: 50px;
+        transform: translateY(-50px);
+        box-shadow: 4px 4px 7px rgb(189, 189, 236);
+        z-index: 1;
+    }
+
+
+    
+    .right-text #location-icon {
+        padding-left: 30px;
+    }
+
+    #first .disiese-list {
+        margin-top: 30px;
+    }
+
+    .line {
+        font-size: 20px;
+        margin-right: 10px;
+        color: rgb(230, 212, 212);
+        opacity: 0.5;
+    }
+
+    .heart-image {
+        margin-bottom: 20px;
+    }
+
+    #right-section {
+        margin-top: 30px;
+    }
+
+    .icon .whatsapp-icon{
+        position:fixed;
+        top:30px;
+        right:0px;
+        width:40px;
+        height:35px;
+        border-radius:50px 0px 0px 50px;
+        text-align: center;
+    }
+    .whatsapp-icon a i:hover{
+        transform:rotate(180deg);
+    }
+    .disiese-list{
+          width:100%;   
+      }
+
+      .main-div{
+        width:100%;
+        height:auto;
+        border:1px solid black;
+        margin-bottom:20px;
+    }
+    #left-section{
+        order:2;
+    }
+    #right-sections{
+        order:1;
+    }
+}

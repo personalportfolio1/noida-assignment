@@ -1,0 +1,38 @@
+@media screen and (max-width:1030px){
+    #banner .image img{
+        height:250px;
+    }
+
+}
+@media screen and (max-width:991px){
+    /* banner */
+    .right-div a{
+        padding:0.6rem;
+    }
+    .transfer{
+        margin-top:-3.5rem;
+    }
+    .second:before{
+        content:"";
+        position: absolute;
+        display:block;
+        left:-5px;
+        bottom:0px;
+        width:1px;
+        height:2.2rem;
+        background: black;
+        bottom:10px;
+        opacity:0.5;
+    }
+    .second{
+        margin-top:1rem;
+    }
+   
+    
+}
+@media screen and (max-width:767px){
+
+}
+@media screen and (max-width:575px){
+
+}
